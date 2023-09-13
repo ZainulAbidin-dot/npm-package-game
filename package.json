@@ -2,9 +2,11 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ZainulAbidin-dot/npm-package-game.git"
+    "url": "git+https://github.com/ZainulAbidin-dot/npm-package-game.git"
   },
-  "bin": "./index.js",
+  "bin": {
+    "console-game": "index.js"
+  },
   "dependencies": {
     "chalk": "^5.3.0",
     "chalk-animation": "^2.0.3",
@@ -22,5 +24,10 @@
   "keywords": [],
   "author": "zain_ul_abidin",
   "license": "ISC",
-  "description": "A console word game"
+  "description": "A console word game",
+  "bugs": {
+    "url": "https://github.com/ZainulAbidin-dot/npm-package-game/issues"
+  },
+  "homepage": "https://github.com/ZainulAbidin-dot/npm-package-game#readme",
+  "devDependencies": {}
 }
