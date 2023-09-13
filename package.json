@@ -1,5 +1,9 @@
 {
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZainulAbidin-dot/npm-package-game.git"
+  },
   "bin": "./index.js",
   "dependencies": {
     "chalk": "^5.3.0",
@@ -16,7 +20,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "Zain ul Abidin",
+  "author": "zain_ul_abidin",
   "license": "ISC",
   "description": "A console word game"
 }
