@@ -46,7 +46,7 @@ async function start() {
     await sleep();
 
     if (playerName === 'dumb' | playerName === 'meanie') {
-        spinner.success({ text: `Nice work Sabira. That's a legit answer` });
+        spinner.success({ text: `Nice work Fatso. That's a legit answer` });
         await welcome();
 
     } else {
@@ -63,7 +63,7 @@ async function handleAnswer(isCorrect) {
     if (isCorrect) {
         spinner.success({ text: `Nice work Fatso. That's a legit answer` });
     } else {
-        spinner.error({ text: `💀💀💀 Game over, you lose Sabira!` });
+        spinner.error({ text: `💀💀💀 Game over, you lose Fatso!` });
         process.exit(1);
     }
 }
@@ -75,7 +75,7 @@ async function handleAnswer2(isCorrect) {
     if (isCorrect) {
         spinner.success({ text: `Nice work Fatso. You know me quite good` });
     } else {
-        spinner.error({ text: `💀💀💀 Game over, you lose Sabira! \n COME ON I AM NOT THAT HEARTLESS` });
+        spinner.error({ text: `💀💀💀 Game over, you lose Fatso! \n COME ON I AM NOT THAT HEARTLESS` });
         process.exit(1);
     }
 }
@@ -87,14 +87,14 @@ async function handleAnswer3(isCorrect) {
     if (isCorrect) {
         spinner.success({ text: `If this was your first option that came to your mind I will definitely have my revenge just you wait` });
     } else {
-        spinner.error({ text: `💀💀💀 Game over, you lose Sabira! \n BE MORE HUMBLE` });
+        spinner.error({ text: `💀💀💀 Game over, you lose Fatso! \n BE MORE HUMBLE` });
         process.exit(1);
     }
 }
 
 function winner() {
     console.clear();
-    figlet(`Congrats , Sabira !\n $ 1 , 0 0 0 , 0 0 0`, (err, data) => {
+    figlet(`Congrats , Fatso !\n $ 1 , 0 0 0 , 0 0 0`, (err, data) => {
         console.log(gradient.pastel.multiline(data) + '\n');
 
         console.log(
